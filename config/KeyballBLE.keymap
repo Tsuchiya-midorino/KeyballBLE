@@ -101,7 +101,7 @@
 &trans  &trans  &trans  &trans  &trans                                &trans    &trans     &trans     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &mkp LCLK      &trans         &mkp MB4  &mkp LCLK  &mkp MCLK  &mkp RCLK  &kp LEFT_SHIFT
 &trans  &trans  &trans  &trans  &trans  &mkp RCLK      &trans         &trans    &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans         &kp BACKSPACE  &trans                                     &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &kp BACKSPACE  &to 0                                      &trans
             >;
         };
 
