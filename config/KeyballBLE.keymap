@@ -67,7 +67,7 @@
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
         };
 
-        Number {
+        NumFunc {
             bindings = <
 &trans        &kp F1  &kp F2  &kp F3  &trans                      &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
 &kp EXCL      &kp F4  &kp F5  &kp F6  &trans  &trans      &trans  &kp EXCL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
@@ -76,12 +76,12 @@
             >;
         };
 
-        Function {
+        Symbol {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                           &trans  &kp F1  &kp F2  &kp F3  &trans
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &trans  &kp F4  &kp F5  &kp F6  &trans
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10
-&kp NUMBER_4                &kp NUMBER_5     &kp NUMBER_6     &trans           &trans        &trans                       &trans  &trans                          &trans
+&kp EXCL      &kp AT        &kp HASH      &kp DOLLAR  &kp PERCENT                         &kp CARET  &kp AMPERSAND     &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans        &trans        &trans        &trans      &trans       &trans         &trans  &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON             &kp SEMI
+&trans        &trans        &trans        &trans      &trans       &kp EQUAL      &trans  &trans     &trans            &kp LESS_THAN      &kp GREATER_THAN      &kp QUESTION
+&kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans      &trans       &trans         &trans  &trans                                                                &trans
             >;
         };
 
